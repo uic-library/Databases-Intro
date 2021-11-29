@@ -1,7 +1,7 @@
 ---
 title: "Setup"
 teaching: 0
-exercises: 10
+exercises: 12
 questions:
 - "How do I setup the software for this workshop?"
 - "What are the workshop materials for this workshop?"
