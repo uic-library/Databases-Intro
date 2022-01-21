@@ -9,7 +9,6 @@ objectives:
 keypoints:
 - "First key point. Brief Answer to questions. (FIXME)"
 ---
-FIXME
 
 Microsoft Access is a database management tool which is simple to use. It provides an easy, userfriendly user interface to create, edit and manage databases. 
 
@@ -18,7 +17,7 @@ represents a single entity inside the entity set.
 
 Note: Every UIC student should have free access to Microsoft office product. Once you open MSAccess in your device if prompted to sign in, use your UIC email address and password to sign in.
 
-CREATING DATABASE AND TABLES:
+## CREATING DATABASE AND TABLES:
 * Open MS-Access
 * Select Black database option
 * Provide a name for the database (e.g. Sample_Database) and then click Create
