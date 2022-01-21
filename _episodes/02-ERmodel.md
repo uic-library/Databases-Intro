@@ -9,7 +9,6 @@ objectives:
 keypoints:
 - "First key point. Brief Answer to questions. (FIXME)"
 ---
-FIXME
 
 ## Relational Database Management Systems (DBMS)
 A  Relational  Database  Management  Systems  (RDBMS) is  a  program  used  to  manage  a relational  database.  In  a  relational  database  data    is  mostly  organized  into  tables  and  the database  helps  us  identify  and  access  data  in  relation  to  another  data  within  the  database.  A single database may comprise of multiple tables and they might be related to each other.
