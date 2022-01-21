@@ -9,7 +9,6 @@ objectives:
 keypoints:
 - "First key point. Brief Answer to questions. (FIXME)"
 ---
-FIXME
 
 ## Introduction to Databases
 
@@ -25,12 +24,13 @@ DBMS is a software which is used to store, edit, and extract the data in a datab
 ## STRUCTURED vs UNSTRUCTURED DATA:
 Structured  dataare  highly  organized. They  can  be  mapped  into  specific  fields  such  as names, country, zip codes etc. They are generally stored and organized in the format of tables and spreadsheets. Structured data are easy to work with and make up 20% of the data currently. Generally structured data are stored in RDBMS (Relational Database Management Systems) and are managed using SQL (Structured Query Language).
 
-![image_3](../fig/image_3.PNG)
+![image_3](../fig/Image_3.PNG)
 
 Unstructured  dataon  the  other  hand  do  not  have  any pre-defined  structure. This data cannot be processed (or) analyzed using any conventional methods/tools. With the Social media boom unstructured data is now  being produced at a rapid pacemaking up 80% of the current data. Examples  of  this  type    of  data  include  images,  audio,  video  etc.  Unstructured    data  are generally stored and handled by NoSQL databases.
 
-![image_4](../fig/image_4.PNG)
+![image_4](../fig/Image_4.PNG)
 
-![image_5](../fig/image_5.PNG)
+![image_5](../fig/Image_5.PNG)
+
 {% include links.md %}
 
