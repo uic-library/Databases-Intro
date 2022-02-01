@@ -31,9 +31,9 @@ FIX ME
 | Section    | Overview | Time Estimate |
 | ------- | ---------- |
 |[Setup](https://uic-library.github.io/Databases-Intro/00-setup/index.html)    | download and setup required software. Download data files/other required set up files|0:10 min|
-|[Section 1](https://uic-library.github.io/Databases-Intro/01-introduction/index.html)| To understand the concepts of databases| 0:15 min|
-|[Section 2](https://uic-library.github.io/Databases-Intro/02-ERmodel/index.html)| To get familiarized with the concepts of Relational DBMS and ER Model | 0:20 min|
-|[Section 3](https://uic-library.github.io/Databases-Intro/03-MSAccess/index.html)| Introduction to MS Access application and manipulating data using MS Access | 0:20 min|
+|[Intro to Database](https://uic-library.github.io/Databases-Intro/01-introduction/index.html)| To understand the concepts of databases| 0:15 min|
+|[Introduction to ER Model](https://uic-library.github.io/Databases-Intro/02-ERmodel/index.html)| To get familiarized with the concepts of Relational DBMS and ER Model | 0:20 min|
+|[Introduction to MS Access](https://uic-library.github.io/Databases-Intro/03-MSAccess/index.html)| Introduction to MS Access application and manipulating data using MS Access | 0:20 min|
 
 {% comment %}
 ## Workshop Recording
