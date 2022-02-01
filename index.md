@@ -40,10 +40,11 @@ Additionally, in a second paragraph, please mention the data set or materials th
 |Section 2|* goal(s) from section #2 (objectives from section 2 page) | | 
 |Section 3| .....| | 
 
-
+{% comment %}
 ## Workshop Recording
 
 {% include box_player.html id=page.boxId %}
+{% endcomment %}
 
 ## Survey
 
