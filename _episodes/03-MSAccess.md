@@ -1,16 +1,16 @@
 ---
 title: "Introduction to MS Access"
-teaching: 0
-exercises: 0
-questions:
-- "Key question (FIXME)"
+teaching: 20
+
 objectives:
-- "First learning objective. (FIXME)"
+- "Introduction to MS Access application"
+- "Manipulating data using MS Access"
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "design and create databases using MS Access"
+- "designing queries to grab required data from databases"
 ---
 
-Microsoft Access is a database management tool which is simple to use. It provides an easy, userfriendly user interface to create, edit and manage databases. 
+Microsoft Access is a database management tool which is simple to use. It provides an easy, userfriendly user interface to create, edit and manage databases.
 
 In a relational database, data is generally stored in the form of tables. Each table here represents an entity set while the columns of the table represent the entity attributes. Each row in the table
 represents a single entity inside the entity set.

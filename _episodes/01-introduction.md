@@ -1,18 +1,18 @@
 ---
 title: "Introduction"
-teaching: 0
-exercises: 0
-questions:
-- "Key question (FIXME)"
+teaching: 15
+
 objectives:
-- "First learning objective. (FIXME)"
+- "To understand the concepts of databases"
+
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "Introduction to Databases, DBMS."
+- "Comparison between Structured and Unstructured Data"
 ---
 
 ## Introduction to Databases
 
-Data is available in large amounts in the current time and databases help store these data. A database is a collection of data which it holds in a structed format. Data from a database can be accessed in multiple ways. 
+Data is available in large amounts in the current time and databases help store these data. A database is a collection of data which it holds in a structed format. Data from a database can be accessed in multiple ways.
 
 ![image_1](../fig/image_1.PNG)
 
@@ -33,4 +33,3 @@ Unstructured  dataon  the  other  hand  do  not  have  any pre-defined  structur
 ![image_5](../fig/Image_5.PNG)
 
 {% include links.md %}
-

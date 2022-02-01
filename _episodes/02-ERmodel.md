@@ -1,20 +1,19 @@
 ---
 title: "Introduction to ER Model"
-teaching: 0
-exercises: 0
-questions:
-- "Key question (FIXME)"
+teaching: 20
 objectives:
-- "First learning objective. (FIXME)"
+- "To get familiarized with the concepts of Relational DBMS and ER Model"
+- "To get deeper understanding of various relationships in ER Model"
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "Introduction to ER Model"
+- "Explanation of Cardinality, various type of Entity Relationships and the rules of ER Model"
 ---
 
 ## Relational Database Management Systems (DBMS)
 A  Relational  Database  Management  Systems  (RDBMS) is  a  program  used  to  manage  a relational  database.  In  a  relational  database  data    is  mostly  organized  into  tables  and  the database  helps  us  identify  and  access  data  in  relation  to  another  data  within  the  database.  A single database may comprise of multiple tables and they might be related to each other.
 
 ![rdbms_1](../fig/rdbms_image_1.PNG)
- 
+
 ## ENTITY–RELATIONSHIP(ER) MODEL
 The ER  model  is  used  to  describe  the data  in  terms  of  objects  (entities)  along  with  the relationships between them. It helps us to understand how the underlying data in an organization are linked to each other.
 
@@ -101,4 +100,3 @@ At most one – Each entity in this entity set is related to at most one entity 
 In the above diagram, there is a total participation by Employee entity with Department entity through works relationship. This indicates that all employees belong to some department in the organization. Similarly, there is a total participation by Department entity with Employee entity through worksrelationship indicating in each department there is at least one employee working. There is a partial participation by Employee entity with Department entity through the manages relationship. This shows not all employees manage a department but only some. The Department entity has a thick line indicating complete participation with an arrow at the end indicating at most one through the manages relationship. This shows that all departments are manages by some employee (total participation – thick line) but each department is managed by at most one (arrow) employee.
 
 {% include links.md %}
-
