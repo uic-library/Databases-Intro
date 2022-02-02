@@ -19,7 +19,6 @@ We will be using the Microsoft Access tool for designing and creating our own da
 - To build a basic understanding of Entity-Relationship Models.
 - To execute queries using MS Access
 
-FIX ME
 <br>
 > ## Pre-requisites
 > There are no pre-requisites for this workshop, though basic understanding of working with data and statistics is recommended.
