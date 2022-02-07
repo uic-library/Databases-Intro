@@ -11,6 +11,7 @@ keypoints:
 ---
 
 ## Software setup
+To practice the database design concepts in this workshop, Microsoft Access, will be used to create a simple database.
 
 ### Install Microsoft Office
 
