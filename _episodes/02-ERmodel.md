@@ -17,7 +17,7 @@ A  Relational  Database  Management  Systems  (RDBMS) is  a  program  used  to  
 ## ENTITY–RELATIONSHIP(ER) MODEL
 The ER  model  is  used  to  describe  the data  in  terms  of  objects  (entities)  along  with  the relationships between them. It helps us to understand how the underlying data in an organization are linked to each other.
 
-*ENTITY*:
+**ENTITY**:
 
 * Entity – An entity is an object of the real world which can be distinguished from other objects. Examples of entities area student in the CS department, a lecturer in the CS department, a teaching assistant in physics department etc.
 
@@ -25,14 +25,14 @@ The ER  model  is  used  to  describe  the data  in  terms  of  objects  (entiti
 
 * Attributes – Each entity is described by a set of features called attributes. For a student at UIC, the attributes could be UIN, major, level (Undergrad, Graduate or PhD) etc. All the entities in an entity set are similar and have the same set of attributes.
 
-Each attribute has a particular domain i.e. for Name attribute the domain could be string of length 30, while for UIN would be 9-digit integers. Each entity set also has a primary key, which is an attribute whose value is used to uniquely identify each record (or) entity in the set, e.g. UIN .A list of attributes whose values are unique for each entity is known as candidate key, e.g. UIN, NetID and email.
+Each attribute has a particular domain i.e. for Name attribute the **domain** could be string of length 30, while for UIN would be 9-digit integers. Each entity set also has a **primary key**, which is an attribute whose value is used to uniquely identify each record (or) entity in the set, e.g. UIN .A list of attributes whose values are unique for each entity is known as **candidate key**, e.g. UIN, NetID and email.
 
 ![rdbms_2](../fig/rdbms_image_2.PNG)
 
 ## RELATIONSHIP:
-A  relationship  helps  define  the  relation  between  different  entities  i.e.  how  an  entity  is related   to   another. Consider   an   organization   which   has   two   entity   sets,   Employee   and Department. The relationship between them would be “works in” as in employee “works in” a department. Information about the relationship is referred to as descriptive attributes.
+A  relationship  helps  define  the  relation  between  different  entities  i.e.  how  an  entity  is related   to   another. Consider   an   organization   which   has   two   entity   sets,   Employee   and Department. The relationship between them would be “works in” as in employee “works in” a department. Information about the relationship is referred to as **descriptive attributes**.
 
-Relationship set is a collection of relationships of the same type. For e.g. Employee E1 works in Department  D1  is  a  relationship,  while Employees    E2,  E3,  E5,  E6  works in  Department  D2  is  a relationship set (since it is  a collection of relationships).
+**Relationship set** is a collection of relationships of the same type. For e.g. Employee E1 works in Department  D1  is  a  relationship,  while Employees    E2,  E3,  E5,  E6  works in  Department  D2  is  a relationship set (since it is  a collection of relationships).
 
 A relationship set is represented in a diamond
 
@@ -61,13 +61,13 @@ Weak entities are represented using thick rectangular boxes.
 
 ![rdbms_7](../fig/rdbms_image_7.PNG)
 
-Note that Name is not a unique identifier on its own for Dependents entity set. There can be multiple people with the name John under dependents. Once an employee entity is chosen then the Name can be used to uniquely identify the dependents of that particular employee. Hence Name is known as partial key of weak entity set.
+Note that Name is not a unique identifier on its own for Dependents entity set. There can be multiple people with the name John under dependents. Once an employee entity is chosen then the Name can be used to uniquely identify the dependents of that particular employee. Hence Name is known as **partial key** of weak entity set.
 
 Restrictions:
 * The relationship of Owner entity set to Weak entity set must be one-to-many (one owner to many weak)
-* The weak entity must have complete participation in the identifying relationship (indicated by the arrow)
+* The weak entity must have complete participation in the identifying relationship
 
-![rdbms_8](../fig/rdbms_image_8.PNG)
+--> ![rdbms_8](../fig/rdbms_image_8.PNG)
 
 ## “IS A” HIERARCHY
 
@@ -75,9 +75,10 @@ The IS A hierarchy is used to classify an entity set into subclasses. For e.g. a
 
 ![rdbms_9](../fig/rdbms_image_9.PNG)
 
-Constraints:
-* Overlap – Can one single entity be present in more than one subclass? A single employee cannot be part of both Hourly_Employee & Contract_Employee. But if an entity set has Contract_Employee & Senior_Employee as its subclass then an employee can be present in both subclasses. Can be represented as Contract_Employee OVERLAP Senior_Employee
-* Covering – Does all the entity of subclass cover all the entities of a parent (or) super class. All the entities of Employee parent class may not belong to subclass Hourly_Employee but all entities of Employee parent class may belong to the combined entities set of Hourly_Employee & Contract_Employee. This can be represented as Hourly_Employee AND Contract_Employee COVER Employee.
+**Constraints**:
+* **Overlap** – Can one single entity be present in more than one subclass? A single employee cannot be part of both Hourly_Employee & Contract_Employee. But if an entity set has Contract_Employee & Senior_Employee as its subclass then an employee can be present in both subclasses. Can be represented as Contract_Employee **OVERLAP** Senior_Employee
+
+* **Covering** – Does all the entity of subclass cover all the entities of a parent (or) super class. All the entities of Employee parent class may not belong to subclass Hourly_Employee but all entities of Employee parent class may belong to the combined entities set of Hourly_Employee & Contract_Employee. This can be represented as Hourly_Employee AND Contract_Employee **COVER** Employee.
 
 ## AGGREGATION
 
@@ -91,9 +92,9 @@ Consider that the employees of the organization are assigned to monitor this spo
 
 ## ER MODEL RULES
 
-Total Participation – All entities of an entity set participate in the relationship. This is represented by a thick line between entity set and relationship in the diagram.
+**Total Participation** – All entities of an entity set participate in the relationship. This is represented by a thick line between entity set and relationship in the diagram.
 
-Partial Participation – Not all entities of the entity set will participate in the relationship. This is represented by a thin line between entity set and relationship in the diagram.
+**Partial Participation** – Not all entities of the entity set will participate in the relationship. This is represented by a thin line between entity set and relationship in the diagram.
 
 At most one – Each entity in this entity set is related to at most one entity in the other entity set it is related. This is indicated by an arrow between entity set and relationship in the diagram.
 
