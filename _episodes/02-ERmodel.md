@@ -19,18 +19,20 @@ The ER  model  is  used  to  describe  the data  in  terms  of  objects  (entiti
 
 *ENTITY*:
 
-* Entity –An entity is an object of the real world which can be distinguished from other objects. Entity –Examples of entities area student in the CS department, a lecturer in the MISEntity –department, a teaching assistant in physics department etc.
+* Entity – An entity is an object of the real world which can be distinguished from other objects. Examples of entities area student in the CS department, a lecturer in the CS department, a teaching assistant in physics department etc.
 
-* Entity Set –A collection of similar entities is referred to as an Entity set. For example, collection Entity Set –of all employees at a university. An entity may not belong to just one entity set, it Entity Set –can be present in multiple sets, in otherwords entity sets need not be disjoint. For Entity Set –example a student working as a Teaching Assistant may belong to an entity set,list Entity Set –of all students in a university and another set,all teaching assistant at a university.
+* Entity Set – A collection of similar entities is referred to as an Entity set. For example, collection of all employees at a university. An entity may not belong to just one entity set, it can be present in multiple sets, in other words entity sets need not be disjoint. For example a student working as a Teaching Assistant may belong to an entity set, list of all students in a university and another set, all teaching assistant at a university.
 
-* Attributes –Each entity is described by a set of features called attributes. For a student at UIC Attributes –the attributes could be UIN, major, level (Undergrad, Graduate or PhD) etc. All the Attributes –entities in anentity set are similarand have the same set of attributes. Each attribute has a particular domaini.e. for Name attribute the domain could be string of length 30, while for UIN would be 9-digit integers. Each entity set also has a primary key, which is an attributewhose value is used to uniquely identify each record (or) entity in the set, e.g. UIN .A list ofattributes whose values are unique for each entity is known as candidate key, e.g. UIN, NetID and email.
+* Attributes – Each entity is described by a set of features called attributes. For a student at UIC, the attributes could be UIN, major, level (Undergrad, Graduate or PhD) etc. All the entities in an entity set are similar and have the same set of attributes.
+
+Each attribute has a particular domain i.e. for Name attribute the domain could be string of length 30, while for UIN would be 9-digit integers. Each entity set also has a primary key, which is an attribute whose value is used to uniquely identify each record (or) entity in the set, e.g. UIN .A list of attributes whose values are unique for each entity is known as candidate key, e.g. UIN, NetID and email.
 
 ![rdbms_2](../fig/rdbms_image_2.PNG)
 
 ## RELATIONSHIP:
 A  relationship  helps  define  the  relation  between  different  entities  i.e.  how  an  entity  is related   to   another. Consider   an   organization   which   has   two   entity   sets,   Employee   and Department. The relationship between them would be “works in” as in employee “works in” a department. Information about the relationship is referred to as descriptive attributes.
 
-Relationship setis a collection of relationships of the same type. For e.g Employee E1 works in Department  D1  is  a  relationship,  while Employees    E2,  E3,  E5,  E6  works in  Department  D2  is  a relationship set (since it is  a collection of relationships).
+Relationship set is a collection of relationships of the same type. For e.g. Employee E1 works in Department  D1  is  a  relationship,  while Employees    E2,  E3,  E5,  E6  works in  Department  D2  is  a relationship set (since it is  a collection of relationships).
 
 A relationship set is represented in a diamond
 
@@ -97,6 +99,6 @@ At most one – Each entity in this entity set is related to at most one entity 
 
 ![rdbms_12](../fig/rdbms_image_12.PNG)
 
-In the above diagram, there is a total participation by Employee entity with Department entity through works relationship. This indicates that all employees belong to some department in the organization. Similarly, there is a total participation by Department entity with Employee entity through worksrelationship indicating in each department there is at least one employee working. There is a partial participation by Employee entity with Department entity through the manages relationship. This shows not all employees manage a department but only some. The Department entity has a thick line indicating complete participation with an arrow at the end indicating at most one through the manages relationship. This shows that all departments are manages by some employee (total participation – thick line) but each department is managed by at most one (arrow) employee.
+In the above diagram, there is a total participation by Employee entity with Department entity through works relationship. This indicates that all employees belong to some department in the organization. Similarly, there is a total participation by Department entity with Employee entity through works relationship indicating in each department there is at least one employee working. There is a partial participation by Employee entity with Department entity through the manages relationship. This shows not all employees manage a department but only some. The Department entity has a thick line indicating complete participation with an arrow at the end indicating at most one through the manages relationship. This shows that all departments are manages by some employee (total participation – thick line) but each department is managed by at most one (arrow) employee.
 
 {% include links.md %}
