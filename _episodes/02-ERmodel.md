@@ -57,7 +57,7 @@ A weak entity is an entity set which does not have a primary key of its own. The
 
 Weak entities are represented using thick rectangular boxes.
 
-![rdbms_7](../fig/rdbms_image_6.PNG)
+![rdbms_7](../fig/rdbms_image_7.PNG)
 
 Note that Name is not a unique identifier on its own for Dependents entity set. There can be multiple people with the name John under dependents. Once an employee entity is chosen then the Name can be used to uniquely identify the dependents of that particular employee. Hence Name is known as partial key of weak entity set.
 
