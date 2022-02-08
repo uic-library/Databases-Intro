@@ -67,8 +67,6 @@ Restrictions:
 * The relationship of Owner entity set to Weak entity set must be one-to-many (one owner to many weak)
 * The weak entity must have complete participation in the identifying relationship
 
---> ![rdbms_8](../fig/rdbms_image_8.PNG)
-
 ## “IS A” HIERARCHY
 
 The IS A hierarchy is used to classify an entity set into subclasses. For e.g. an entity set Employee may be classified into subclasses of Hourly_Employee , Contract_Employee (or) Senior_Employee, Junior_Employee etc. All the attributes of the parent entity set are inherited i.e. present in its subclasses.
