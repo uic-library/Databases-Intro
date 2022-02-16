@@ -33,7 +33,7 @@ keypoints:
 > ~~~
 > it may include some code
 > ~~~
-> {: .source}
+> {: .sql}
 >
 > > ## Solution
 > >
@@ -43,5 +43,8 @@ keypoints:
 > > it may also include some code
 > > ~~~
 > > {: .output}
+> > or, an image of a solution
+> > ![image of solution](../fig/filename.png)
+> > 
 > {: .solution}
 {: .challenge}
