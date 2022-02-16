@@ -9,26 +9,10 @@ keypoints:
 ---
 
 
-> ## Exercise description/title  
-> 
->  Describe exercise to be completed.  
->  Each new line needs to have a ">" symbol  
->    
-> > ## Solution
-> > Add description of solution here
-> > Can add code: 
-> > ```sql
-> > add code here
-> > ```
-> > or, add images
-> > ![image of solution](../fig/filename.png)
-> {: .solution}
-{: .challege}
 
-
-> ## Challenge Title
+> ## Exercise Title
 >
-> This is the body of the challenge.
+> This is the body of the exercise.
 >
 > ~~~
 > it may include some code
