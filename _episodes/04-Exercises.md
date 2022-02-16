@@ -11,9 +11,9 @@ keypoints:
 
 > ## Exercise description/title
 > 
->  Describe exercise to be completed. 
->  Each new line needs to have a ">" symbol
->  
+>  Describe exercise to be completed.  
+>  Each new line needs to have a ">" symbol  
+>    
 > > ## Solution
 > > Add description of solution here
 > > Can add code: 
