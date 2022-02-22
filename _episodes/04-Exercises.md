@@ -1,34 +1,52 @@
 ---
 title: "Intro Database Exercises"
-time: 20
+teaching: 20
 
 objectives:
 - "Practice skills related to introductory database content"
 keypoints:
-- 
+- "Practicing the important topics of the workshop"
 ---
 
 
 
-> ## Exercise Title
+> ## ER Diagram exercise
 >
-> This is the body of the exercise.
->
-> ~~~
-> it may include some code
-> ~~~
-> {: .sql}
+> Draw a ER diagram representing the database of students attending courses.
 >
 > > ## Solution
 > >
-> > This is the body of the solution.
+> > Multiple solutions possible.
 > >
-> > ~~~
-> > it may also include some code
-> > ~~~
-> > {: .output}
-> > or, an image of a solution
-> > ![image of solution](../fig/filename.png)
-> > 
+> > ER diagram of students attending courses
+> > ![Solution_1](../fig/exercises_1.png)
+> >
+> {: .solution}
+>
+> ## MS Access Database queries exercise 1
+>
+> Using MS Access, retrieve the Items purchased by customers with First Name “Selena” AND Quantity less than 5
+>
+> > ## Solution
+> >
+> > Query
+> > ![Solution_1](../fig/Query1.png)
+> >
+> > Result
+> > ![Solution_1](../fig/Query1_result.png)
+> >
+> {: .solution}
+> ## MS Access Database queries exercise 2
+>
+> Using MS Access, retrieve the Items purchased by customers with First Name "Kevin" or “Selena” on date 8th November, 2020
+>
+> > ## Solution
+> >
+> > Query
+> > ![Solution_1](../fig/Query2.png)
+> >
+> > Result
+> > ![Solution_1](../fig/Query2_result.png)
+> >
 > {: .solution}
 {: .challenge}

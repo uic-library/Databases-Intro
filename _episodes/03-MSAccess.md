@@ -10,12 +10,12 @@ keypoints:
 - "designing queries to grab required data from databases"
 ---
 
-Microsoft Access is a database management tool which is simple to use. It provides an easy, userfriendly user interface to create, edit and manage databases.
+Microsoft Access is a database management tool which is simple to use. It provides an easy, user friendly user interface to create, edit and manage databases.
 
 In a relational database, data is generally stored in the form of tables. Each table here represents an entity set while the columns of the table represent the entity attributes. Each row in the table
 represents a single entity inside the entity set.
 
-Note: Every UIC student should have free access to Microsoft office product. Once you open MSAccess in your device if prompted to sign in, use your UIC email address and password to sign in.
+Note: Every UIC student should have free access to Microsoft office product. Once you open MS Access in your device if prompted to sign in, use your UIC email address and password to sign in.
 
 ## CREATING DATABASE AND TABLES:
 * Open MS-Access
@@ -29,7 +29,7 @@ Note: Every UIC student should have free access to Microsoft office product. Onc
 
 ![access_2](../fig/access_2.PNG)
 
-* Now rename the 3 tables as: Customer, Item, Purchase. To rename a table, select the table at the top and not on the left pane and then press Ctrl+S
+* Now rename the 3 tables as: Customer, Item, Purchase. To rename a table, select the table at the top and not on the left pane and then press Ctrl + S
 
 ![access_3](../fig/access_3.PNG)
 
