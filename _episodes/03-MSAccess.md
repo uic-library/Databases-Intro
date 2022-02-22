@@ -1,6 +1,6 @@
 ---
 title: "Introduction to MS Access"
-teaching: 20
+teaching: 45
 
 objectives:
 - "Introduction to MS Access application"

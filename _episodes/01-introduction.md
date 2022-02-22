@@ -1,6 +1,6 @@
 ---
 title: "Intro to Database"
-teaching: 15
+teaching: 12
 
 objectives:
 - "To understand the concepts of databases"
