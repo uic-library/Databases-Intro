@@ -78,16 +78,6 @@ The IS A hierarchy is used to classify an entity set into subclasses. For e.g. a
 
 * **Covering** – Does all the entity of subclass cover all the entities of a parent (or) super class. All the entities of Employee parent class may not belong to subclass Hourly_Employee but all entities of Employee parent class may belong to the combined entities set of Hourly_Employee & Contract_Employee. This can be represented as Hourly_Employee AND Contract_Employee **COVER** Employee.
 
-## AGGREGATION
-
-We use an aggregation to model a relationship between entity sets and relationship set. For e.g. Consider in an organization various department sponsor various projects. Here the entities are Project and Department while the relationship between them is Sponsors.
-
-![rdbms_10](../fig/rdbms_image_10.PNG)
-
-Consider that the employees of the organization are assigned to monitor this sponsor ship. Thus, the employees are supposed to monitor the sponsorship. To model a relationship (Monitors) between an entity (Employee) and a relationship set (Sponsors) we use an aggregation represented by the dashed box.
-
-![rdbms_11](../fig/rdbms_image_11.PNG)
-
 ## ER MODEL RULES
 
 **Total Participation** – All entities of an entity set participate in the relationship. This is represented by a thick line between entity set and relationship in the diagram.
@@ -99,5 +89,9 @@ At most one – Each entity in this entity set is related to at most one entity 
 ![rdbms_12](../fig/rdbms_image_12.PNG)
 
 In the above diagram, there is a total participation by Employee entity with Department entity through works relationship. This indicates that all employees belong to some department in the organization. Similarly, there is a total participation by Department entity with Employee entity through works relationship indicating in each department there is at least one employee working. There is a partial participation by Employee entity with Department entity through the manages relationship. This shows not all employees manage a department but only some. The Department entity has a thick line indicating complete participation with an arrow at the end indicating at most one through the manages relationship. This shows that all departments are manages by some employee (total participation – thick line) but each department is managed by at most one (arrow) employee.
+
+## ER diagram of customer purchases a item Database
+![rdbms_13](../fig/rdbms_image_13.png)
+
 
 {% include links.md %}
