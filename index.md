@@ -47,5 +47,5 @@ Thank you for attending this workshop or reading through the workshop material! 
 
 ## Next Up...
 Check out these workshops after you've completed this one:
-1. [Introduction to SQL]()
+1. [Introduction to SQL](https://uic-library.github.io/SQL-Intro/)
 2. [SQL Advanced]()
